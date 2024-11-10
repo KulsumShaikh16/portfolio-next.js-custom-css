@@ -1,0 +1,94 @@
+.footerwrapper {
+    background-color: #94a3b8;
+  }
+  
+  .footer {
+    color: #4b5563;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+  }
+  
+  .container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem 1.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  @media (min-width: 640px) {
+    .container {
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+  
+  .logo {
+    display: flex;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+    color: #111827;
+  }
+  
+  @media (min-width: 768px) {
+    .logo {
+      justify-content: flex-start;
+    }
+  }
+  
+  .logotext {
+    margin-left: 0.75rem;
+    font-size: 1.25rem;
+  }
+  
+  .copyright {
+    font-size: 0.875rem;
+    color: #000000;
+    margin-top: 1rem;
+  }
+  
+  @media (min-width: 640px) {
+    .copyright {
+      margin-left: 1rem;
+      padding-left: 1rem;
+      border-left: 2px solid #6b7280;
+      line-height: 2;
+      margin-top: 0;
+    }
+  }
+  
+  .sociallinks {
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 1rem;
+    font-size: 2rem;
+    gap: 1rem;
+  }
+  
+  @media (min-width: 640px) {
+    .sociallinks {
+      margin-left: auto;
+      margin-top: 0;
+    }
+  }
+  
+  .socialicon {
+    font-size: 3rem;
+    margin-right: 0.75rem;
+    margin: 1rem;
+    transition: color 0.3s ease;
+    
+  }
+  
+  .socialiconlinkedin:hover {
+    color: #0077b5;
+  }
+  
+  .socialicongithub:hover {
+    color: #000000;
+  }
+  
+  .socialiconemail:hover {
+    color: #b91c1c;
+  }

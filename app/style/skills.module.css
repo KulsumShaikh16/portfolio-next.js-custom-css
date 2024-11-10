@@ -1,0 +1,95 @@
+/* app/components/Skills.module.css */
+
+.section {
+  color: #4a4a4a;
+  font-family: sans-serif;
+  padding: 6rem 1rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.titleContainer {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #d53f8c;
+}
+
+.skillsGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.skillCard {
+  width: 100%;
+  max-width: 350px;
+  background: #f9f9f9;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.skillHeader {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.iconContainer {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d53f8c;
+  color: white;
+  border-radius: 50%;
+  margin-right: 0.75rem;
+}
+
+.icon {
+  font-size: 1.25rem;
+}
+
+.skillName {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.progressContainer {
+  margin-top: 0.75rem;
+}
+
+.progressWrapper {
+  position: relative;
+  background: #e0e0e0;
+  border-radius: 1rem;
+  height: 0.5rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.progressBar {
+  background: #d53f8c;
+  height: 100%;
+  border-radius: 1rem 0 0 1rem;
+}
+
+.percentage {
+  margin-top: 0.5rem;
+  text-align: right;
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: #d53f8c;
+}
